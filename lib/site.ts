@@ -19,7 +19,8 @@ export const foods = [
   { name: "Pahadi Pulses", sub: "Dals of Uttarakhand", benefit: "Protein-rich, hearty dals that keep you full for longer.", use: "Everyday dal and traditional mountain dishes." },
   { name: "Chemical-free Spices", sub: "Haldi, mirch, dhania", benefit: "Pure spices with no artificial colour or additives, for real flavour.", use: "Everyday cooking and tempering." },
   { name: "Pisyun Loon", sub: "Pahadi flavoured salt", benefit: "Stone-ground salt with mountain herbs and spices, full of taste.", use: "Enjoy with fruit, roti or cucumber." },
-  { name: "Himalayan Honey", sub: "Pure and natural", benefit: "A natural sweetener, bottled the way it comes from the hills.", use: "Tea, porridge or straight from the spoon." },
+  { name: "Pahadi Cow Ghee", sub: "Traditional mountain staple", benefit: "Rich, aromatic clarified butter for everyday cooking and traditional recipes.", use: "Dal, roti, rice, parathas and tempering." },
+  { name: "Organic Himalayan Honey", sub: "Natural mountain sweetness", benefit: "A naturally sweet pantry staple for drinks, breakfast and everyday recipes.", use: "Tea, porridge, toast or straight from the spoon." },
 ];
 
 export const focus = [
