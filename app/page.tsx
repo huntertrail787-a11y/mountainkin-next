@@ -46,6 +46,28 @@ export default function Home() {
                 <p>Our range brings back the wholesome grains Pahadi families have eaten for generations, and makes them easy to cook in any kitchen.</p>
               </div>
             </div>
+            <div className="products-grid" aria-label="Featured Himalayan products">
+              <article className="product-card">
+                <img src="https://images.unsplash.com/photo-1573812461383-e5f8b759d12e?auto=format&fit=crop&fm=jpg&q=85&w=1200" alt="Golden ghee in a traditional glass jar with a spoon" loading="lazy" />
+                <div className="product-copy">
+                  <span className="product-kicker">MountainKin pantry</span>
+                  <h3>Pahadi Cow Ghee</h3>
+                  <p>Golden, aromatic ghee inspired by the traditional mountain kitchen. A simple everyday staple for dal, roti, rice, parathas and traditional recipes.</p>
+                  <p className="product-note">We source with an emphasis on traditional preparation, clean ingredients and responsible relationships with mountain producers.</p>
+                  <a href={waLink("I want to know about MountainKin Pahadi Cow Ghee")}>Ask about ghee</a>
+                </div>
+              </article>
+              <article className="product-card">
+                <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&fm=jpg&q=85&w=1200" alt="Natural honey jar with honeycomb and honey dipper" loading="lazy" />
+                <div className="product-copy">
+                  <span className="product-kicker">MountainKin pantry</span>
+                  <h3>Organic Himalayan Honey</h3>
+                  <p>Rich, naturally sweet honey for tea, breakfast bowls, porridge and everyday recipes, bringing the flavour of Himalayan flora to your kitchen.</p>
+                  <p className="product-note">Product certification and source details will be shown clearly on the final pack before sale.</p>
+                  <a href={waLink("I want to know about MountainKin Organic Himalayan Honey")}>Ask about honey</a>
+                </div>
+              </article>
+            </div>
           </div>
         </section>
 
